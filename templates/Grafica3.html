@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafica 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<style>
+    .highlight-on-hover {
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+            }
+            
+            .highlight-on-hover:hover {
+                transform: scale(1.1); /* Aumenta el tamaño del div */
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+            }
+    
+    </style>
+
+<body>
+    <iframe title="Promedio de Uso de Megas y de apps instaladas en los  modelos de sistemas del telefono " aria-label="Barras divididas" id="datawrapper-chart-IRQOS" src="https://datawrapper.dwcdn.net/IRQOS/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="428" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+    </script>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <div class="container-fluid">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="/">Inicio de la pagina</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mas</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Grafica4">Otros Graficos</a></li>
+                  
+                </ul>
+              </li> 
+          </ul>
+        </div>
+      </nav>
+
+    <center><h3>Para Mas detalles</h3></center>
+    <center>
+        <ul class="list-group list-group-horizontal d-flex align-items-center justify-content-center">
+            <li class="list-group-item">
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#demo">Descripcion</button>
+            <div id="demo" class="collapse">
+                En esta grafica muesta los promedio apps instaladas en los modelos de sistemas del telefono y promedio de uso MB de un dia segun el modelo</div>
+            </li>
+            <li class="list-group-item">
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#demo2">Detalles</button>
+            <div id="demo2" class="collapse">
+                El modelo mas alto es el iphone variando no por mucho por los demas por que los demas modelos estan casi en las mismas variando por decimas ya que el iphone tambien utiliza el cache de las aplicaciones para que sea mas rapido y eso tambien tambien implica el MB variando tambien un poco mas que los demas modelos
+            </div>
+        </li>
+        </ul>
+    </center>
+
+        <div class="container p-5 my-5 bg-dark text-white highlight-on-hover ">
+            <h2>Interpretacion </h2>
+            Muestra el promedio del uso de Megas instaladas por día es del modelo del sistema que es iphone ya que este trabaja apps más pesadas y con mayor complejidad que solo el iphone puede procesar ya que a pesar de que es una de sus características para el rendimiento de su dispositivo ya que entre más memoria cache tenga más rápido es. En cambio, los demás sistemas operativos se mantienen arraya por decimas ya que no tienen una gran diferencia entre los iphones ya que tienen algo de correlación. Todas las apps instaladas en cada uno de los modelos del sistema tienen una fuerte correlación ya que como se ve casi tienen la misma cantidad de apps instaladas y según el uso de esas apps los MB casi en un día es el mismo 
+        </div>
+    
+</body>
+</html>
